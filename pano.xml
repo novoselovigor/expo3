@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="17227" appversion="6.0.1" id="node1">
+  <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1024" levelbias="0.400" overlap="1" leveltilesize="510" levelingroll="0" levelingpitch="0" height="1024">
+    <level preload="0" width="1024" predecode="0" height="1024"/>
+    <level preload="0" width="512" predecode="0" height="512"/>
+    <level preload="1" width="256" predecode="1" height="256"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start pan="0" fov="70" projection="4" tilt="0"/>
+    <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120" tilt="90"/>
+  </view>
+  <userdata comment="" latitude="" datetime="" longitude="" source="" customnodeid="" description="" info="" copyright="" title="" author="" tags="Downloads"/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label borderradius="1" textalpha="1" border="1" width="180" borderalpha="1" textcolor="0x000000" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" height="20" background="1"/>
+    <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+    <hotspot url="media/case heimat.mp4" target="" description="" pan="-157.49" skinid="ht_video_file" title="Showreel" tilt="-5.85" id="Showreel"/>
+    <hotspot url="media/case heima1t.mp4" target="" description="" pan="-309.96" skinid="ht_video_file" title="Showreel" tilt="-8.59" id="Point01"/>
+  </hotspots>
+  <media>
+    <video ambientlevel="0.000" rotz="0.000" field="90.000" rotx="0.000" pansize="10.000" nodechangekeep="0" clickmode="1" fov="19.140" handcursor="1" height="1080" roty="5.000" id="Element01" startmutedmobile="1" tilt="3.320" stretch="1.000" tiltsize="10.000" mode="3" level="1.000" loop="1" pan="-349.430" width="1920">
+      <source url="media/case heima1t.mp4"/>
+    </video>
+  </media>
+  <transition zoomoutpause="1" blendtime="1" zoomin="0" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomspeed="2" zoomfov="20" zoomout="0" softedge="0"/>
+  <flyintransition speed="2.00" enabled="1"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0">
+    <clip animtitle="Animation01" transitiontype="0" animtype="0" nextclipnodeid="node1" cliptitle="Clip01" nextclipstartview="0/0/70/4" nextcliptitle="Clip01" nodeid="" length="100">
+      <keyframe valuestring="" time="0" transitiontime="0" additionaltrackid="" value="0" property="0" type="0"/>
+      <keyframe valuestring="" time="0" transitiontime="0" additionaltrackid="" value="0" property="1" type="0"/>
+      <keyframe valuestring="" time="0" transitiontime="0" additionaltrackid="" value="70" property="2" type="0"/>
+      <keyframe valuestring="" time="0" transitiontime="0" additionaltrackid="" value="4" property="3" type="0"/>
+      <keyframe valuestring="" bezierinvalue="10.5307" bezieroutvalue="10.5307" time="14" transitiontime="0" additionaltrackid="" value="10.5307" bezierouttime="10014" property="0" type="2" bezierintime="9.8"/>
+      <keyframe valuestring="" bezierinvalue="-8.84694" bezieroutvalue="-8.84694" time="14" transitiontime="0" additionaltrackid="" value="-8.84694" bezierouttime="10014" property="1" type="2" bezierintime="9.8"/>
+      <keyframe valuestring="" bezierinvalue="70" bezieroutvalue="70" time="14" transitiontime="0" additionaltrackid="" value="70" bezierouttime="10014" property="2" type="2" bezierintime="9.8"/>
+    </clip>
+  </animation>
+  <control simulatemass="1" invertcontrol="1" speedwheel="1" lockedwheel="0" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" contextprojections="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
+</panorama>
