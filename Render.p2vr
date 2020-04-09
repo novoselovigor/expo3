@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="17227" version="6.0.1">
+<pano2vrconfig version="6.0.1" rev="17227">
   <tour>
-    <start>node2</start>
+    <start>node1</start>
     <panorama>
       <input>
         <patch/>
@@ -27,8 +27,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-30.93</pan>
-            <tilt>-1.7</tilt>
+            <pan>-29.86</pan>
+            <tilt>-1.88</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -43,6 +43,24 @@
           <url>{node2}</url>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-304.19</pan>
+            <tilt>-2.78</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -50,12 +68,12 @@
       <sounds>
         <sound>
           <position>
-            <pan>-344.55</pan>
+            <pan>-344.46</pan>
             <tilt>0.97</tilt>
           </position>
           <videorect>
             <rotx>0</rotx>
-            <roty>0</roty>
+            <roty>10</roty>
             <rotz>0</rotz>
             <fov>19.07</fov>
             <stretch>100</stretch>
@@ -63,11 +81,11 @@
             <dimy>720</dimy>
           </videorect>
           <type>video</type>
-          <id>ht_video_file</id>
+          <id>Element01</id>
           <filename>/Users/hackintosh/Desktop/wbs.mp4</filename>
-          <mode>3</mode>
+          <mode>1</mode>
           <nodechangekeep>0</nodechangekeep>
-          <locked>0</locked>
+          <locked>1</locked>
           <pansize>10</pansize>
           <tiltsize>10</tiltsize>
           <fieldsize>90</fieldsize>
@@ -81,8 +99,8 @@
         </sound>
         <lensflare>
           <position>
-            <pan>-36.18</pan>
-            <tilt>5.68</tilt>
+            <pan>-36.12</pan>
+            <tilt>5.76</tilt>
           </position>
           <id>Lensflare01</id>
           <locked>0</locked>
@@ -93,6 +111,84 @@
         </lensflare>
       </sounds>
       <id>node1</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>Render/03.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-04-09T17:02:14</capturedatetime>
+        <tags>Render</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-335.56</pan>
+            <tilt>-13.97</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-13.93</pan>
+            <tilt>-3.22</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds>
+        <lensflare>
+          <position>
+            <pan>-35.51</pan>
+            <tilt>6.6</tilt>
+          </position>
+          <id>Lensflare01</id>
+          <locked>0</locked>
+          <blinding>50</blinding>
+          <alpha>80</alpha>
+          <lensflaretype>colorfullensflare</lensflaretype>
+          <color>#ffffff</color>
+        </lensflare>
+      </sounds>
+      <id>node3</id>
     </panorama>
     <panorama>
       <input>
@@ -154,6 +250,53 @@
       </sounds>
       <id>node2</id>
     </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>Render/04.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-04-09T18:15:52</capturedatetime>
+        <tags>Render</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-341.83</pan>
+            <tilt>3.25</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node4</id>
+    </panorama>
   </tour>
   <panorama>
     <id>master</id>
@@ -175,7 +318,7 @@
           <enabled>1</enabled>
           <filename>../step3/index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
             <value id="jsxml">false</value>
@@ -188,11 +331,15 @@
         <autorotate/>
         <soundstransition/>
         <flyintransition/>
-        <hotspottext/>
+        <hotspottext>
+          <auto>1</auto>
+          <textwrap>1</textwrap>
+          <borderradius>10</borderradius>
+        </hotspottext>
         <hotspotstyle/>
         <tilesize>2048</tilesize>
         <filename>../step3/pano.xml</filename>
-        <skinfile>$d/skin-1.ggsk</skinfile>
+        <skinfile>simplex_v6.ggsk</skinfile>
         <previewquality>100</previewquality>
         <quality>100</quality>
         <skinconfiguration>
@@ -207,7 +354,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>
